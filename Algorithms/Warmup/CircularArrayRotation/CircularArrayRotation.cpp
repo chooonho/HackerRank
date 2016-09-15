@@ -49,7 +49,7 @@ int main()
 
 	for (int i = 0; i < q; i++)
 	{
-		int index = (indices[i] - (k % n)) % n;
+		int index = (indices[i] - (k % n));
 
 		if (index >= 0)
 		{
