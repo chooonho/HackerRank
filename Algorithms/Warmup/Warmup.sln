@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Staircase", "Staircase\Stai
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TimeConversion", "TimeConversion\TimeConversion.vcxproj", "{F08A7E02-5C0A-4711-8C55-32AA57E00842}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CircularArrayRotation", "CircularArrayRotation\CircularArrayRotation.vcxproj", "{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{F08A7E02-5C0A-4711-8C55-32AA57E00842}.Release|x64.Build.0 = Release|x64
 		{F08A7E02-5C0A-4711-8C55-32AA57E00842}.Release|x86.ActiveCfg = Release|Win32
 		{F08A7E02-5C0A-4711-8C55-32AA57E00842}.Release|x86.Build.0 = Release|Win32
+		{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}.Debug|x64.ActiveCfg = Debug|x64
+		{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}.Debug|x64.Build.0 = Debug|x64
+		{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}.Debug|x86.ActiveCfg = Debug|Win32
+		{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}.Debug|x86.Build.0 = Debug|Win32
+		{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}.Release|x64.ActiveCfg = Release|x64
+		{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}.Release|x64.Build.0 = Release|x64
+		{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}.Release|x86.ActiveCfg = Release|Win32
+		{75E09D78-6D6D-41E0-97DB-AFD73BB64A14}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
