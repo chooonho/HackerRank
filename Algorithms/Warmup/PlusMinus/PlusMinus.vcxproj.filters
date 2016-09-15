@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DiagonalDifference.cpp">
+    <ClCompile Include="PlusMinus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

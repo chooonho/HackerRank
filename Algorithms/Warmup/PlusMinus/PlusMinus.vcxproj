@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{A0AD08B4-C619-420B-A946-8797F1CA7F37}</ProjectGuid>
-    <RootNamespace>DiagonalDifference</RootNamespace>
+    <ProjectGuid>{510DE8BC-923D-48E4-AA73-A70DAB47E713}</ProjectGuid>
+    <RootNamespace>PlusMinus</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,7 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DiagonalDifference.cpp" />
+    <ClCompile Include="PlusMinus.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
