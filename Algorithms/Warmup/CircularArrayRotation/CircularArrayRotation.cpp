@@ -47,16 +47,18 @@ int main()
 		}
 	}
 
-	for (int i = 0; i < k; i++)
-	{
-		int num = nums.back();
-		nums.insert(nums.begin(), num);
-		nums.pop_back();
-	}
-
 	for (int i = 0; i < q; i++)
 	{
-		std::cout << nums[indices[i]] << std::endl;
+		int index = (indices[i] - (k % n)) % n;
+
+		if (index >= 0)
+		{
+			std::cout << nums[index] << std::endl;
+		}
+		else
+		{
+			std::cout << nums[index + nums.size()] << std::endl;
+		}
 	}
 
 	return 0;
